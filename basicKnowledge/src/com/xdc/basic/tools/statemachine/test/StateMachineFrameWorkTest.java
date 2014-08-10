@@ -10,7 +10,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.google.common.collect.Lists;
-import com.xdc.basic.skills.GetCurPath;
+import com.xdc.basic.skills.GetPath;
 import com.xdc.basic.tools.statemachine.SMException;
 import com.xdc.basic.tools.statemachine.StateMachine;
 import com.xdc.basic.tools.statemachine.StateMachineFrameWork;
@@ -24,7 +24,7 @@ public class StateMachineFrameWorkTest
     {
         try
         {
-            String curPath = GetCurPath.getCurPath();
+            String curPath = GetPath.getRelativePath();
             File baseFile = FileUtils.getFile(curPath + "base.xml");
             String baseString = FileUtils.readFileToString(baseFile, Charsets.UTF_8);
 
