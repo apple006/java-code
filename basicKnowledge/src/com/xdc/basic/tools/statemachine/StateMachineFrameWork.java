@@ -9,7 +9,7 @@ import javax.xml.bind.JAXBException;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.xdc.basic.api.jaxb.XMLConvertor;
+import com.xdc.basic.api.jaxb.tool1.XMLConvertor;
 import com.xdc.basic.tools.statemachine.xml.Event;
 import com.xdc.basic.tools.statemachine.xml.Handler;
 import com.xdc.basic.tools.statemachine.xml.Root;
