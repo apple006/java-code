@@ -7,8 +7,8 @@ import java.util.Comparator;
 
 public class FindErrorCode
 {
-    public static void main(String[] args) throws IllegalArgumentException, IllegalAccessException,
-            InstantiationException, ClassNotFoundException
+    public static void main(String[] args)
+            throws IllegalArgumentException, IllegalAccessException, InstantiationException, ClassNotFoundException
     {
         // 存放待抽取错误码类
         ArrayList<String> classArrayList = new ArrayList<String>();
