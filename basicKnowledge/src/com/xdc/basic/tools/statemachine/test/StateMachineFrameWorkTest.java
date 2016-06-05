@@ -46,7 +46,12 @@ public class StateMachineFrameWorkTest
             String rstNxtState = sm.dealEvent(event);
             Assert.assertEquals(extNxtState, rstNxtState);
         }
-        catch (SMException | IOException e)
+        catch (IOException e)
+        {
+            e.printStackTrace();
+            Assert.fail("error");
+        }
+        catch (SMException e)
         {
             e.printStackTrace();
             Assert.fail("error");
