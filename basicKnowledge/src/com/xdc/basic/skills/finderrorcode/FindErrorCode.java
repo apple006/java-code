@@ -50,7 +50,6 @@ public class FindErrorCode
         }
     }
 
-    //
     /**
      * 抽取错误码的方法, 这个方法只针对以整型常量定义错误码的方式
      * 
