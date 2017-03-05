@@ -1,6 +1,7 @@
 package com.xdc.basic.commons.network;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class IpUtilTest
@@ -33,6 +34,7 @@ public class IpUtilTest
         Assert.assertEquals(false, IpUtil.isIpv4Ip("0.0.0.0hehe"));
     }
 
+    @Ignore("比较耗时，不执行了。")
     @Test
     public void testIsIpv4PortAndIsIpv4PortRegex()
     {
